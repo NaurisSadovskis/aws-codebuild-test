@@ -1,0 +1,10 @@
+pipeline:
+  backend:
+    image: golang
+    commands:
+      - go version
+
+  frontend:
+    image: node:6
+    commands:
+      - npm version
