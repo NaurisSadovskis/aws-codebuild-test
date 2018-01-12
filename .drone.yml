@@ -1,7 +1,13 @@
+
+cache:
+  mount:
+    - testing
+
 pipeline:
   backend:
     image: golang
     commands:
+      - ls -alh
       - go version
 
   frontend:
