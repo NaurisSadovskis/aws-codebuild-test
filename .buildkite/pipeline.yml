@@ -1,7 +1,4 @@
 steps:
-  - label: Generate
-    command: buildkite-agent pipeline upload .buildkite/other.yml
-
   - label: Build
     command: echo "Hello!"
 
