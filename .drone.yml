@@ -1,8 +1,4 @@
 
-cache:
-  mount:
-    - testing
-
 pipeline:
   backend:
     image: golang
