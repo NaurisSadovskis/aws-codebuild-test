@@ -1,6 +1,6 @@
 steps:
   - label: Build
-    command: echo "Hello!"
+    command: docker ps -a
 
   - label: Test
     command: echo "Hello!"
